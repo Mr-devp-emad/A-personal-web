@@ -1,0 +1,15 @@
+.dropdown{
+  transition: ease-in-out 2s;
+  animation: Po 0.30s;
+  
+}
+
+@keyframes Po{
+  from{
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to{
+    opacity: 100;
+  }
+}
